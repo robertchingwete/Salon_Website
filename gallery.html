@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kaylan Luxe Salon gallery — browse our work including hair styling, nail art, makeup and salon interior photos." />
+  <title>Kaylan Luxe Salon | Gallery</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <div class="container">
+        <a href="index.html" class="navbar__logo" aria-label="Kaylan Luxe Salon home">
+          <img src="images/logo.svg" alt="Kaylan Luxe Salon logo" width="160" height="43" class="navbar__logo-img" />
+        </a>
+        <ul class="navbar__links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html" class="active">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="contact.html" class="btn btn--primary navbar__cta">Book now</a>
+        <button class="navbar__toggle" id="navToggle" aria-label="Toggle navigation menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== MAIN ===== -->
+  <main>
+
+    <!-- ===== PAGE HERO ===== -->
+    <section class="page-hero" aria-label="Gallery introduction">
+      <div class="container">
+        <span class="section-label">Our portfolio</span>
+        <h1>Our Work</h1>
+        <div class="divider"></div>
+        <p>A showcase of the transformations, styles and beauty work created right here at Kaylan Luxe Salon.</p>
+      </div>
+    </section>
+
+    <!-- ===== FILTER NAV ===== -->
+    <nav class="gallery-filter" aria-label="Filter gallery by category">
+      <div class="container">
+        <ul class="gallery-filter__list">
+          <li>
+            <button class="gallery-filter__btn active" data-filter="all">All Work</button>
+          </li>
+          <li>
+            <button class="gallery-filter__btn" data-filter="hair">Hair</button>
+          </li>
+          <li>
+            <button class="gallery-filter__btn" data-filter="nails">Nails</button>
+          </li>
+          <li>
+            <button class="gallery-filter__btn" data-filter="makeup">Makeup</button>
+          </li>
+          <li>
+            <button class="gallery-filter__btn" data-filter="salon">Salon</button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ===== GALLERY GRID ===== -->
+    <section class="section" aria-labelledby="gallery-heading">
+      <div class="container">
+
+        <h2 id="gallery-heading" class="sr-only">Gallery images</h2>
+
+        <div class="gallery-grid" id="galleryGrid">
+
+          <!-- Hair items -->
+          <figure class="gallery-item gallery-item--tall" data-category="hair">
+            <div class="gallery-item__img" role="img" aria-label="Box braids styling">
+              <img src="images/gallery-hair-1.jpg" alt="Cornrow braids at Kaylan Luxe Salon" width="600" height="400" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+            </div>
+            <figcaption class="gallery-item__caption">
+              <span class="gallery-item__cat" style="background:#8B1A4A;">Hair</span>
+              Box Braids
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item" data-category="nails">
+            <div class="gallery-item__img" role="img" aria-label="Nail art design">
+              <img src="images/gallery-nails-1.jpg" alt="Gel nail art at Kaylan Luxe Salon" width="600" height="400" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+            </div>
+            <figcaption class="gallery-item__caption">
+              <span class="gallery-item__cat" style="background:#C9A84C;">Nails</span>
+              Gel Nail Art
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item" data-category="makeup">
+            <div class="gallery-item__img" role="img" aria-label="Bridal makeup look">
+              <img src="images/gallery-makeup-1.jpg" alt="Bridal glam makeup look at Kaylan Luxe Salon" width="600" height="400" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+            </div>
+            <figcaption class="gallery-item__caption">
+              <span class="gallery-item__cat" style="background:#C2416E;">Makeup</span>
+              Bridal Glam
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item" data-category="hair">
+            <div class="gallery-item__img" role="img" aria-label="Cornrow braids">
+              <img src="images/gallery-hair-2.jpg" alt="Weave installation at Kaylan Luxe Salon" width="600" height="400" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+            </div>
+            <figcaption class="gallery-item__caption">
+              <span class="gallery-item__cat" style="background:#8B1A4A;">Hair</span>
+              Cornrow Braids
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item gallery-item--tall" data-category="makeup">
+            <div class="gallery-item__img" role="img" aria-label="Full glam makeup">
+              <img src="images/gallery-makeup-2.jpg" alt="Full glam makeup at Kaylan Luxe Salon" width="600" height="400" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+            </div>
+            <figcaption class="gallery-item__caption">
+              <span class="gallery-item__cat" style="background:#C2416E;">Makeup</span>
+              Full Glam
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item" data-category="nails">
+            <div class="gallery-item__img" role="img" aria-label="Acrylic nail extensions">
+              <img src="images/gallery-nails-2.jpg" alt="Acrylic nail extensions at Kaylan Luxe Salon" width="600" height="400" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+            </div>
+            <figcaption class="gallery-item__caption">
+              <span class="gallery-item__cat" style="background:#C9A84C;">Nails</span>
+              Acrylic Extensions
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item gallery-item--wide" data-category="salon">
+            <div class="gallery-item__img" role="img" aria-label="Kaylan Luxe Salon interior">
+              <img src="images/gallery-salon-1.jpg" alt="Kaylan Luxe Salon interior space in Gaborone" width="600" height="400" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+            </div>
+            <figcaption class="gallery-item__caption">
+              <span class="gallery-item__cat" style="background:#3D2535;">Salon</span>
+              Our Space
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item" data-category="hair">
+            <div class="gallery-item__img" role="img" aria-label="Weave installation">
+              <img src="images/gallery-hair-3.jpg" alt="Natural twist out hair style at Kaylan Luxe Salon" width="600" height="400" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+            </div>
+            <figcaption class="gallery-item__caption">
+              <span class="gallery-item__cat" style="background:#8B1A4A;">Hair</span>
+              Weave Installation
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item" data-category="nails">
+            <div class="gallery-item__img" role="img" aria-label="Manicure and pedicure">
+              <img src="images/gallery-nails-4.jpg" alt="Manicure and pedicure at Kaylan Luxe Salon" width="600" height="400" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+            </div>
+            <figcaption class="gallery-item__caption">
+              <span class="gallery-item__cat" style="background:#C9A84C;">Nails</span>
+              Mani &amp; Pedi
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item" data-category="hair">
+            <div class="gallery-item__img" role="img" aria-label="Natural twist out style">
+              <img src="images/gallery-hair-4.jpg" alt="Hair colour and highlights at Kaylan Luxe Salon" width="600" height="400" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+            </div>
+            <figcaption class="gallery-item__caption">
+              <span class="gallery-item__cat" style="background:#8B1A4A;">Hair</span>
+              Twist Out
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item gallery-item--tall" data-category="salon">
+            <div class="gallery-item__img" role="img" aria-label="Salon styling station">
+              <img src="images/gallery-salon-2.jpg" alt="Kaylan Luxe Salon styling station" width="600" height="400" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+            </div>
+            <figcaption class="gallery-item__caption">
+              <span class="gallery-item__cat" style="background:#3D2535;">Salon</span>
+              Styling Station
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item" data-category="makeup">
+            <div class="gallery-item__img" role="img" aria-label="Natural everyday makeup">
+              <img src="images/gallery-makeup-3.jpg" alt="Natural everyday makeup look at Kaylan Luxe Salon" width="600" height="400" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+            </div>
+            <figcaption class="gallery-item__caption">
+              <span class="gallery-item__cat" style="background:#C2416E;">Makeup</span>
+              Natural Look
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item" data-category="nails">
+            <div class="gallery-item__img" role="img" aria-label="Gradient ombre nails">
+              <img src="images/gallery-nails-3.jpg" alt="Ombre gradient nails at Kaylan Luxe Salon" width="600" height="400" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+            </div>
+            <figcaption class="gallery-item__caption">
+              <span class="gallery-item__cat" style="background:#C9A84C;">Nails</span>
+              Ombre Nails
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item gallery-item--wide" data-category="hair">
+            <div class="gallery-item__img" role="img" aria-label="Hair colour and highlights">
+              <img src="images/gallery-hair-5.jpg" alt="Box braids styling at Kaylan Luxe Salon" width="600" height="400" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+            </div>
+            <figcaption class="gallery-item__caption">
+              <span class="gallery-item__cat" style="background:#8B1A4A;">Hair</span>
+              Colour &amp; Highlights
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item" data-category="salon">
+            <div class="gallery-item__img" role="img" aria-label="Salon reception area">
+              <img src="images/gallery-salon-3.jpg" alt="Kaylan Luxe Salon reception area" width="600" height="400" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+            </div>
+            <figcaption class="gallery-item__caption">
+              <span class="gallery-item__cat" style="background:#3D2535;">Salon</span>
+              Reception Area
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item" data-category="makeup">
+            <div class="gallery-item__img" role="img" aria-label="Graduation makeup look">
+              <img src="images/gallery-makeup-4.jpg" alt="Graduation glam makeup at Kaylan Luxe Salon" width="600" height="400" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+            </div>
+            <figcaption class="gallery-item__caption">
+              <span class="gallery-item__cat" style="background:#C2416E;">Makeup</span>
+              Graduation Glam
+            </figcaption>
+          </figure>
+
+        </div>
+
+        <!-- No results message -->
+        <p class="gallery-empty" id="galleryEmpty" aria-live="polite" hidden>
+          No images found for this category.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- ===== CTA BANNER ===== -->
+    <aside class="cta-banner" aria-label="Book a service">
+      <div class="container cta-banner__inner">
+        <div>
+          <span class="section-label" style="color:var(--pink-light);">Like what you see?</span>
+          <h2 style="color:var(--white);">Book Your Own Transformation</h2>
+        </div>
+        <a href="contact.html" class="btn btn--gold">Book now</a>
+      </div>
+    </aside>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" aria-label="Site footer">
+    <div class="container">
+      <div class="footer__grid">
+
+        <div>
+          <img src="images/logo-white.svg" alt="Kaylan Luxe Salon" width="200" height="54" class="footer__logo" style="width:200px;height:54px;display:block;" />
+          <p class="footer__tagline">Where Beauty Meets Excellence</p>
+          <address style="font-style:normal;font-size:0.82rem;color:rgba(255,255,255,0.45);line-height:1.8;">
+            Plot 123, Main Mall<br>
+            Gaborone, Botswana<br>
+            Tel: <a href="tel:+26770000000" style="color:rgba(255,255,255,0.45);">+267 7X XXX XXX</a>
+          </address>
+        </div>
+
+        <nav aria-label="Footer navigation">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div>
+          <h4>Opening Hours</h4>
+          <ul>
+            <li style="font-size:0.85rem;color:rgba(255,255,255,0.6);margin-bottom:6px;">Mon – Fri: 08:00 – 18:00</li>
+            <li style="font-size:0.85rem;color:rgba(255,255,255,0.6);margin-bottom:6px;">Saturday: 08:00 – 16:00</li>
+            <li style="font-size:0.85rem;color:rgba(255,255,255,0.6);">Sunday: Closed</li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="footer__bottom">
+        <small>© 2026 Kaylan Luxe Salon. All rights reserved.</small>
+        <nav class="footer__socials" aria-label="Social media links">
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">WhatsApp</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== PAGE-SPECIFIC STYLES ===== -->
+  <style>
+    /* Screen-reader only utility */
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+
+    /* Filter nav */
+    .gallery-filter { background: var(--white); border-bottom: 1px solid var(--border); padding: 0; }
+    .gallery-filter__list { display: flex; gap: 8px; list-style: none; padding: 14px 0; margin: 0; overflow-x: auto; }
+    .gallery-filter__btn { background: transparent; border: 1px solid var(--border); border-radius: 20px; padding: 7px 18px; font-family: var(--font-body); font-size: 0.78rem; font-weight: 400; letter-spacing: 0.08em; color: var(--text-muted); cursor: pointer; transition: all 0.25s ease; white-space: nowrap; }
+    .gallery-filter__btn:hover { border-color: var(--pink-mid); color: var(--pink-deep); }
+    .gallery-filter__btn.active { background: var(--pink-deep); border-color: var(--pink-deep); color: var(--white); }
+
+    /* Gallery grid — CSS grid masonry-style layout */
+    .gallery-grid { display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-rows: 200px; gap: 10px; }
+    .gallery-item--tall { grid-row: span 2; }
+    .gallery-item--wide { grid-column: span 2; }
+
+    /* Gallery item */
+    .gallery-item { margin: 0; position: relative; overflow: hidden; border-radius: var(--radius); border: 1px solid var(--border); cursor: pointer; }
+    .gallery-item__img { width: 100%; height: 100%; background: var(--pink-pale); display: flex; align-items: center; justify-content: center; transition: transform 0.4s ease; }
+    .gallery-item:hover .gallery-item__img { transform: scale(1.04); }
+    .gallery-item__placeholder { font-size: 0.78rem; color: var(--text-muted); font-family: var(--font-body); }
+
+    /* Caption — slides up on hover */
+    .gallery-item__caption { position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(26,16,23,0.82)); color: var(--white); padding: 28px 14px 12px; font-size: 0.82rem; font-family: var(--font-body); transform: translateY(100%); transition: transform 0.3s ease; display: flex; flex-direction: column; gap: 2px; }
+    .gallery-item:hover .gallery-item__caption { transform: translateY(0); }
+    .gallery-item__cat { font-size: 0.65rem; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: var(--pink-light); }
+
+    /* Hidden state for filtered items */
+    .gallery-item.hidden { display: none; }
+
+    /* No results */
+    .gallery-empty { text-align: center; color: var(--text-muted); font-size: 0.9rem; padding: 40px 0; }
+
+    /* CTA */
+    .cta-banner { background: var(--dark-mid); padding: 60px 0; }
+    .cta-banner__inner { display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
+
+    /* Different placeholder background tints per category */
+    .gallery-item[data-category="hair"]   .gallery-item__img { background: #f9edf2; }
+    .gallery-item[data-category="nails"]  .gallery-item__img { background: #fdf0f5; }
+    .gallery-item[data-category="makeup"] .gallery-item__img { background: #f5eaf0; }
+    .gallery-item[data-category="salon"]  .gallery-item__img { background: #f0edf5; }
+
+    @media (max-width: 900px) {
+      .gallery-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+    @media (max-width: 640px) {
+      .gallery-grid { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 160px; }
+      .gallery-item--wide { grid-column: span 2; }
+      .gallery-item__caption { transform: translateY(0); }
+      .cta-banner__inner { flex-direction: column; text-align: center; }
+    }
+  </style>
+
+  <!-- ===== GALLERY FILTER SCRIPT ===== -->
+  <script src="js/main.js"></script>
+  <script>
+    const filterBtns  = document.querySelectorAll('.gallery-filter__btn');
+    const galleryItems = document.querySelectorAll('.gallery-item');
+    const emptyMsg    = document.getElementById('galleryEmpty');
+
+    filterBtns.forEach(function(btn) {
+      btn.addEventListener('click', function() {
+
+        // Update active button
+        filterBtns.forEach(function(b) { b.classList.remove('active'); });
+        btn.classList.add('active');
+
+        var filter = btn.getAttribute('data-filter');
+        var visible = 0;
+
+        galleryItems.forEach(function(item) {
+          if (filter === 'all' || item.getAttribute('data-category') === filter) {
+            item.classList.remove('hidden');
+            visible++;
+          } else {
+            item.classList.add('hidden');
+          }
+        });
+
+        // Show or hide empty message
+        if (visible === 0) {
+          emptyMsg.removeAttribute('hidden');
+        } else {
+          emptyMsg.setAttribute('hidden', '');
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>

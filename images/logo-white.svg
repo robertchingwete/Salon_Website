@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="334" height="90" viewBox="0 0 334 90">
+  <rect x="0" y="0" width="90" height="90" rx="8" fill="#C9A84C"/>
+  <rect x="18" y="16" width="8" height="58" fill="#1A1017"/>
+  <polygon points="26,16 26,44 72,16 62,16" fill="#1A1017"/>
+  <polygon points="26,46 26,74 72,74 62,74" fill="#1A1017"/>
+  <rect x="18" y="43" width="28" height="4" fill="#ffffff"/>
+  <text x="106" y="46"
+    font-family="'Cormorant Garamond', Georgia, serif"
+    font-size="32" font-weight="600" letter-spacing="4"
+    fill="#ffffff">KAYLAN</text>
+  <rect x="106" y="55" width="222" height="2" fill="#C9A84C"/>
+  <text x="107" y="74"
+    font-family="'Jost', Arial, sans-serif"
+    font-size="12" font-weight="400" letter-spacing="8"
+    fill="#F4C0D1">LUXE SALON</text>
+</svg>
